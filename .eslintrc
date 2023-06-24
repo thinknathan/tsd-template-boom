@@ -1,0 +1,53 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "tsconfig.json"
+	},
+	"plugins": ["@typescript-eslint", "prettier"],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:@typescript-eslint/recommended-requiring-type-checking",
+		"prettier"
+	],
+	"rules": {
+		"eqeqeq": "error",
+		"no-bitwise": "error",
+		"no-continue": "error",
+		"no-magic-numbers": "off",
+		"prettier/prettier": "warn",
+		"@typescript-eslint/ban-types": [
+			"error",
+			{
+				"types": {
+					"null": "There is no Lua equivalent for null. Use undefined instead."
+				},
+				"extendDefaults": true
+			}
+		],
+		"@typescript-eslint/no-for-in-array": "error",
+		"@typescript-eslint/no-magic-numbers": [
+			"warn",
+			{
+				"ignore": [0, 1],
+				"ignoreEnums": true
+			}
+		],
+		"@typescript-eslint/no-unused-vars": [
+			"warn",
+			{
+				"args": "all",
+				"argsIgnorePattern": "^_"
+			}
+		],
+		"@typescript-eslint/strict-boolean-expressions": [
+			"error",
+			{
+				"allowString": false,
+				"allowNumber": false
+			}
+		],
+		"@typescript-eslint/restrict-plus-operands": "off"
+	}
+}

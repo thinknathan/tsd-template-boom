@@ -1,0 +1,34 @@
+{
+	"name": "tsd-boom-template",
+	"license": "MIT",
+	"description": "Defold game template with TypeScriptToLua and Boom",
+	"scripts": {
+		"build": "yarn clean && tstl -p tsconfig.production.json",
+		"clean": "rimraf app/**/*.map",
+		"dev": "tstl --watch",
+		"lint": "eslint src",
+		"prettier": "prettier ./** --write",
+		"resolve": "library resolve"
+	},
+	"devDependencies": {
+		"@ts-defold/library": "~0.1.2",
+		"@ts-defold/tstl-export-as-global": "~1.0.0",
+		"@ts-defold/tstl-trim-extensions": "git+https://git@github.com/thinknathan/ts-defold-tstl-trim-extensions.git#~1.0.2",
+		"@ts-defold/tstl-userdata-sugar": "~1.0.0",
+		"@ts-defold/types": "git+https://git@github.com/thinknathan/ts-defold-types.git#^1.3.0",
+		"@types/tsd-boom": "git+https://git@github.com/thinknathan/tsd-boom-types.git#^1.0.0",
+		"@typescript-eslint/eslint-plugin": "~5.59.7",
+		"@typescript-eslint/parser": "~5.59.7",
+		"eslint": "~8.43.0",
+		"eslint-config-prettier": "~8.8.0",
+		"eslint-plugin-prettier": "~4.2.1",
+		"prettier": "~2.8.8",
+		"rimraf": "^5.0.1",
+		"typescript": "~5.0.4",
+		"typescript-to-lua": "~1.15.1",
+		"typescript-tstl-plugin": "~0.3.2"
+	},
+	"resolutions": {
+		"typescript-to-lua": "~1.15.1"
+	}
+}

@@ -1,0 +1,21 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /boom/render/boom.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 960
+height = 540
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = tsd-boom-template
+dependencies#0 = https://github.com/britzl/boom/archive/refs/heads/main.zip
+
+[input]
+game_binding = /boom/boom.input_bindingc
+

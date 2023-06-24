@@ -1,0 +1,4 @@
+node_modules
+plugins
+./*.cjs
+./*.mjs
