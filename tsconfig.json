@@ -39,6 +39,7 @@
 						"on_message",
 						"on_reload",
 						"update",
+						"fixed_update",
 						"final"
 					]
 				}
