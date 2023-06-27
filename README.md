@@ -28,9 +28,9 @@ _Note that you will need to have [Node.js](https://nodejs.org) installed._
 1. Fork this template or use [degit](https://www.npmjs.com/package/degit) to download the template locally
 
 ```bash
-npx degit thinknathan/tsd-boom-template my-game
+npx degit thinknathan/tsd-template-boom my-game
 # or
-git clone https://github.com/thinknathan/tsd-boom-template.git my-game
+git clone https://github.com/thinknathan/tsd-template-boom.git my-game
 ```
 
 2. Initialize
