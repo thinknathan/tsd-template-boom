@@ -47,7 +47,7 @@
 				"name": "@ts-defold/tstl-userdata-sugar"
 			},
 			{
-				"name": "@ts-defold/tstl-trim-extensions"
+				"name": "tstl-trim-extensions"
 			}
 		]
 	}

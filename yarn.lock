@@ -108,10 +108,6 @@
   resolved "https://registry.yarnpkg.com/@ts-defold/tstl-export-as-global/-/tstl-export-as-global-1.0.0.tgz#0dc3a75b598cfade026585cb6c5f6baacd43efc3"
   integrity sha512-UkUT8wUrSINRP7cBFmToNmtrm1F/1OQSgjvO5j95KismeO80luAtjXB5LlfmtjLE3jvku6b9bSkjZY0T8aRYtA==
 
-"@ts-defold/tstl-trim-extensions@git+https://git@github.com/thinknathan/ts-defold-tstl-trim-extensions.git#~1.0.2":
-  version "1.0.2"
-  resolved "git+https://git@github.com/thinknathan/ts-defold-tstl-trim-extensions.git#b7996b547d97ff7227894cb7f888b2bde6a935c7"
-
 "@ts-defold/tstl-userdata-sugar@~1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@ts-defold/tstl-userdata-sugar/-/tstl-userdata-sugar-1.0.0.tgz#f9e7af0636b0376e0cb03335cb5e99e53c5ac110"
@@ -1217,6 +1213,11 @@ tslib@^1.14.1, tslib@^1.8.1:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
+
+tstl-trim-extensions@~1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/tstl-trim-extensions/-/tstl-trim-extensions-1.0.3.tgz#d17c9a9904766532e695e5b9b4f1321c13c0711e"
+  integrity sha512-P9jmoAdEpGK5vZ73yI3GxgaMgVzkTPbosyHh3q7nT0K0U86x9DUlQoB4Gb6fI+MsuGDfTndel0Jf8IUCK2aMvg==
 
 tsutils@^3.21.0:
   version "3.21.0"
