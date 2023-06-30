@@ -7,13 +7,13 @@
 		"esModuleInterop": true,
 		"experimentalDecorators": true,
 		"moduleResolution": "node",
-		"types": [
-			"@ts-defold/types",
-			"tsd-boom",
-			"@typescript-to-lua/language-extensions"
+		"types": ["types", "tsd-boom", "language-extensions"],
+		"typeRoots": [
+			"./@types",
+			"./node_modules/@types",
+			"./node_modules/@typescript-to-lua",
+			"./node_modules/@ts-defold"
 		],
-		"typeRoots": ["./@types", "./node_modules/@types"],
-
 		"rootDir": "src",
 		"outDir": "app",
 		"strict": true,
