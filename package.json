@@ -15,7 +15,7 @@
 	},
 	"scripts": {
 		"build": "npm run clean && tstl -p tsconfig.production.json",
-		"clean": "rimraf app/**/*.map",
+		"clean": "rimraf ./app/**/*.map -g",
 		"dev": "tstl --watch",
 		"lint": "eslint src",
 		"prettier": "prettier ./** --write",
