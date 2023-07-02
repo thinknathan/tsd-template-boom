@@ -19,3 +19,9 @@ dependencies#0 = https://github.com/britzl/boom/archive/refs/heads/main.zip
 [input]
 game_binding = /boom/boom.input_bindingc
 
+[physics]
+use_fixed_timestep = 1
+
+[engine]
+fixed_update_frequency = 30
+
