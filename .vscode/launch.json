@@ -19,7 +19,12 @@
 				}
 			},
 			"scriptRoots": ["app", "src"],
-			"scriptFiles": ["app/**/*.lua", "app/**/*.script", "app/**/*.gui_script"]
+			"scriptFiles": [
+				"app/**/*.lua",
+				"app/**/*.script",
+				"app/**/*.gui_script",
+				"app/**/*.render_script"
+			]
 		}
 	]
 }
