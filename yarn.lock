@@ -135,8 +135,8 @@
   integrity sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==
 
 "@types/tsd-boom@git+https://git@github.com/thinknathan/tsd-boom-types.git#^1.0.0":
-  version "1.0.7"
-  resolved "git+https://git@github.com/thinknathan/tsd-boom-types.git#4a9f956208542094ef3e61d19a6096406464f349"
+  version "1.1.0"
+  resolved "git+https://git@github.com/thinknathan/tsd-boom-types.git#0a86fb3a98f6557430cdf72696c7bfd3ac86af69"
 
 "@typescript-eslint/eslint-plugin@~5.60.0":
   version "5.60.1"
