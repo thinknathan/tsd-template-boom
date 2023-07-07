@@ -21,7 +21,8 @@
 			"error",
 			{
 				"types": {
-					"null": "There is no Lua equivalent for null. Use undefined instead."
+					"null": "There is no Lua equivalent to null. Use undefined instead.",
+					"bigint": "There is no Lua 5.1 equivalent to BigInt."
 				},
 				"extendDefaults": true
 			}
@@ -30,7 +31,7 @@
 		"@typescript-eslint/no-magic-numbers": [
 			"warn",
 			{
-				"ignore": [0, 1],
+				"ignore": [-1, 0, 1],
 				"ignoreEnums": true
 			}
 		],
