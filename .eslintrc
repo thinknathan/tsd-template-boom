@@ -13,30 +13,19 @@
 	],
 	"rules": {
 		"eqeqeq": "error",
-		"no-bitwise": "error",
-		"no-continue": "error",
-		"no-magic-numbers": "off",
 		"prettier/prettier": "warn",
 		"@typescript-eslint/ban-types": [
 			"error",
 			{
 				"types": {
-					"null": "There is no Lua equivalent to null. Use undefined instead.",
-					"bigint": "There is no Lua 5.1 equivalent to BigInt."
+					"null": "Use `undefined` as the equivalent to Lua's `nil`",
+					"bigint": "Arbitrary-precision arithmetic is unsupported in Lua 5.1"
 				},
 				"extendDefaults": true
 			}
 		],
-		"@typescript-eslint/no-for-in-array": "error",
-		"@typescript-eslint/no-magic-numbers": [
-			"warn",
-			{
-				"ignore": [-1, 0, 1],
-				"ignoreEnums": true
-			}
-		],
 		"@typescript-eslint/no-unused-vars": [
-			"warn",
+			"error",
 			{
 				"args": "all",
 				"argsIgnorePattern": "^_"
