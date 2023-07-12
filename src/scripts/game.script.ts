@@ -33,7 +33,8 @@ export function init(this: Game): void {
 
 		const LOOP_MAX = 5;
 		// Run a lua-style loop 5 times.
-		for (const _ of $range(1, LOOP_MAX)) {
+		for (const i of $range(1, LOOP_MAX)) {
+			print(`Running loop ${i}`);
 			const x = rand(0, width());
 			const y = rand(0, height());
 			add([sprite('snake2', { atlas: 'mainAtlas' }), pos(x, y)]);
