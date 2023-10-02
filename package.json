@@ -1,6 +1,6 @@
 {
 	"name": "tsd-boom-template",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Defold game template with TypeScriptToLua and Boom",
 	"repository": "github:thinknathan/tsd-template-boom",
 	"keywords": [
