@@ -15,6 +15,7 @@ This template extends [tsd-template](https://github.com/ts-defold/tsd-template).
 - Full boilerplate game project ready to transpile and go
 - File watcher via `yarn dev` to transpile on save
 - Source maps are generated on `yarn dev`, but stripped on `yarn build` for leaner production output
+- Minify lua output with `yarn minify` (Reduces file size for HTML5 builds only)
 
 _Note that you will need to have [Node.js](https://nodejs.org) installed._
 

@@ -19,6 +19,7 @@
 		"dev": "tstl --watch",
 		"lint": "eslint src",
 		"prettier": "prettier \"./**/*.{eslintrc,yml,json,ts,md,d.ts}\" --write",
+		"minify": "node ./minify-lua.cjs",
 		"resolve": "library resolve"
 	},
 	"devDependencies": {
@@ -32,6 +33,7 @@
 		"eslint": "~8.50.0",
 		"eslint-config-prettier": "~9.0.0",
 		"eslint-plugin-prettier": "~5.0.0",
+		"luamin": "^1.0.4",
 		"prettier": "~3.0.0",
 		"rimraf": "^5.0.1",
 		"tstl-trim-extensions": "~1.0.3",
