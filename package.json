@@ -23,6 +23,7 @@
 		"resolve": "library resolve"
 	},
 	"devDependencies": {
+		"@total-typescript/ts-reset": "^0.5.1",
 		"@ts-defold/library": "~0.1.2",
 		"@ts-defold/tstl-export-as-global": "~1.0.0",
 		"@ts-defold/tstl-userdata-sugar": "~1.0.0",

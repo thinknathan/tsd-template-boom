@@ -108,6 +108,11 @@
     picocolors "^1.0.0"
     tslib "^2.6.0"
 
+"@total-typescript/ts-reset@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@total-typescript/ts-reset/-/ts-reset-0.5.1.tgz#93b0535d00faa588518bcfb0db30182e63e4f7af"
+  integrity sha512-AqlrT8YA1o7Ff5wPfMOL0pvL+1X+sw60NN6CcOCqs658emD6RfiXhF7Gu9QcfKBH7ELY2nInLhKSCWVoNL70MQ==
+
 "@ts-defold/library@~0.1.2":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@ts-defold/library/-/library-0.1.3.tgz#6e6847d2c9b1fe3b732189f3f25ebe29a99c584f"
