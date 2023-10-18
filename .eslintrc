@@ -24,6 +24,12 @@
 				"extendDefaults": true
 			}
 		],
+		"@typescript-eslint/no-confusing-non-null-assertion": "warn",
+		"@typescript-eslint/non-nullable-type-assertion-style": "warn",
+		"@typescript-eslint/no-non-null-asserted-nullish-coalescing": "warn",
+		"@typescript-eslint/require-array-sort-compare": "warn",
+		"no-shadow": "off",
+		"@typescript-eslint/no-shadow": "warn",
 		"@typescript-eslint/no-unused-vars": [
 			"error",
 			{
