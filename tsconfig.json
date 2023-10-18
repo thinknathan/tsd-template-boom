@@ -3,10 +3,10 @@
 	"compilerOptions": {
 		"target": "esnext",
 		"lib": ["esnext"],
-		"module": "commonjs",
+		"module": "node16",
 		"esModuleInterop": true,
 		"experimentalDecorators": true,
-		"moduleResolution": "node",
+		"moduleResolution": "node16",
 		"types": ["types", "tsd-boom", "language-extensions"],
 		"typeRoots": [
 			"./@types",
