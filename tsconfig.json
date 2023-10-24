@@ -1,48 +1,50 @@
 {
 	"$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
 	"compilerOptions": {
-		"target": "esnext",
 		"lib": ["esnext"],
-		"module": "node16",
-		"esModuleInterop": true,
-		"experimentalDecorators": true,
-		"moduleResolution": "node16",
-		"types": ["types", "tsd-boom", "language-extensions"],
-		"typeRoots": [
-			"./@types",
-			"./node_modules/@types",
-			"./node_modules/@typescript-to-lua",
-			"./node_modules/@ts-defold"
-		],
-		"rootDir": "src",
-		"outDir": "app",
-		"strict": true,
+		"module": "ES2022",
+		"moduleDetection": "force",
+		"moduleResolution": "Bundler",
+		"noUncheckedIndexedAccess": true,
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
+		"outDir": "app",
+		"plugins": [
+			{
+				"name": "typescript-tstl-plugin"
+			}
+		],
+		"rootDir": "src",
 		"sourceMap": true,
-
-		"plugins": [{ "name": "typescript-tstl-plugin" }]
+		"strict": true,
+		"target": "esnext",
+		"typeRoots": [
+			"./@types",
+			"./node_modules/@ts-defold",
+			"./node_modules/@types",
+			"./node_modules/@typescript-to-lua"
+		],
+		"types": ["language-extensions", "tsd-boom", "types"],
+		"verbatimModuleSyntax": true
 	},
 	"exclude": ["./node_modules/*", "./plugins/*"],
 	"tstl": {
-		"luaTarget": "5.1",
 		"luaLibImport": "require-minimal",
-		"sourceMapTraceback": true,
 		"luaPlugins": [
 			{
-				"name": "@ts-defold/tstl-export-as-global",
-				"match": ".*\\..*script.ts$",
 				"globals": {
 					"functions": [
+						"final",
+						"fixed_update",
 						"init",
 						"on_input",
 						"on_message",
 						"on_reload",
-						"update",
-						"fixed_update",
-						"final"
+						"update"
 					]
-				}
+				},
+				"match": ".*\\..*script.ts$",
+				"name": "@ts-defold/tstl-export-as-global"
 			},
 			{
 				"name": "@ts-defold/tstl-userdata-sugar"
@@ -50,6 +52,8 @@
 			{
 				"name": "tstl-trim-extensions"
 			}
-		]
+		],
+		"luaTarget": "5.1",
+		"sourceMapTraceback": true
 	}
 }
