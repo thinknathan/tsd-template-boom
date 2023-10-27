@@ -5,6 +5,7 @@
 		"module": "ES2022",
 		"moduleDetection": "force",
 		"moduleResolution": "Bundler",
+		"noImplicitReturns": true,
 		"noUncheckedIndexedAccess": true,
 		"noUnusedLocals": false,
 		"noUnusedParameters": false,
