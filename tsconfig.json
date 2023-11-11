@@ -55,6 +55,7 @@
 			}
 		],
 		"luaTarget": "5.1",
+		"noHeader": true,
 		"sourceMapTraceback": true
 	}
 }

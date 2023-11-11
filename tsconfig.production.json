@@ -2,11 +2,9 @@
 	"$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
 	"extends": "./tsconfig.json",
 	"compilerOptions": {
-		"sourceMap": false,
-		"removeComments": true
+		"sourceMap": false
 	},
 	"tstl": {
-		"noHeader": true,
 		"sourceMapTraceback": false
 	}
 }
