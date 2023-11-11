@@ -11,11 +11,13 @@ This template extends [tsd-template](https://github.com/ts-defold/tsd-template).
 - Full Lua and Defold API type definitions for TypeScript auto-complete and type checking
 - Types for boom
 - Eslint config for handling the caveats of TypeScriptToLua and keeping your code correct
+  - `yarn lint` to run the linter
+  - `yarn lintfix` to allow the linter to auto-fix issues
 - Handles script, gui_script, and module exports using familiar ES6 export syntax
 - Full boilerplate game project ready to transpile and go
 - File watcher via `yarn dev` to transpile on save
-- Source maps are generated on `yarn dev`, but stripped on `yarn build` for leaner production output
-- Minify lua output with `yarn minify` (Reduces file size for HTML5 builds only)
+- Optionally run `yarn buildprod` instead of `yarn build` to strip source maps for leaner production output
+- Minify lua output with `yarn minify` (Reduces file size for HTML5 builds) (Experimental: [see known issues](https://github.com/mathiasbynens/luamin/issues))
 
 _Note that you will need to have [Node.js](https://nodejs.org) installed._
 
