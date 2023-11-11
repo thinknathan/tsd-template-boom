@@ -15,10 +15,12 @@
 	},
 	"type": "module",
 	"scripts": {
-		"build": "npm run cleanmap && tstl -p tsconfig.production.json",
+		"build": "tstl",
+		"buildprod": "npm run cleanmap && tstl -p tsconfig.production.json",
 		"cleanmap": "rimraf ./app/**/*.map -g",
 		"dev": "tstl --watch",
 		"lint": "eslint src",
+		"lintfix": "eslint src --fix",
 		"prettier": "prettier \"./**/*.{eslintrc,yml,json,ts,md,d.ts}\" --write",
 		"minify": "node ./minify-lua.cjs",
 		"resolve": "library resolve"
