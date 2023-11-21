@@ -42,10 +42,10 @@
 		"rimraf": "^5.0.1",
 		"tstl-trim-extensions": "~1.0.3",
 		"typescript": "~5.2.2",
-		"typescript-to-lua": "~1.21.0",
+		"typescript-to-lua": "~1.22.0",
 		"typescript-tstl-plugin": "~0.3.2"
 	},
 	"resolutions": {
-		"typescript-to-lua": "~1.21.0"
+		"typescript-to-lua": "~1.22.0"
 	}
 }
