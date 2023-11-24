@@ -136,8 +136,8 @@
   integrity sha512-iEBt+EpMOvBnpr1/fwUMirVGUqUAE9yFIuzi4ir7BOJvQEEtqAgTvyco2RIms9D7OzEL2jqBSzt3NjoD7zdKpQ==
 
 "@ts-defold/types@git+https://git@github.com/thinknathan/ts-defold-types.git#^1.3.2":
-  version "1.3.13"
-  resolved "git+https://git@github.com/thinknathan/ts-defold-types.git#bf747cfc31342848a0d1172d8857479d329a6eef"
+  version "1.3.14"
+  resolved "git+https://git@github.com/thinknathan/ts-defold-types.git#67bb97701aead8ba14e93fb84be2749f4462763c"
   dependencies:
     lua-types "^2.10.1"
 
