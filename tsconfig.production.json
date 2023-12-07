@@ -5,6 +5,38 @@
 		"sourceMap": false
 	},
 	"tstl": {
+		"luaPlugins": [
+			{
+				"globals": {
+					"functions": [
+						"final",
+						"fixed_update",
+						"init",
+						"on_input",
+						"on_message",
+						"on_reload",
+						"update"
+					]
+				},
+				"match": ".*\\..*script.ts$",
+				"name": "@ts-defold/tstl-export-as-global"
+			},
+			{
+				"name": "@ts-defold/tstl-userdata-sugar"
+			},
+			{
+				"name": "tstl-trim-extensions"
+			},
+			{
+				"name": "tstl-simple-const-unroller"
+			},
+			{
+				"name": "tstl-const-propagation"
+			},
+			{
+				"name": "tstl-simple-inline-func"
+			}
+		],
 		"sourceMapTraceback": false
 	}
 }

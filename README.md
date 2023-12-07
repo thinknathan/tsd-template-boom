@@ -16,10 +16,10 @@ This template extends [tsd-template](https://github.com/ts-defold/tsd-template).
 - Handles script, gui_script, and module exports using familiar ES6 export syntax
 - Full boilerplate game project ready to transpile and go
 - File watcher via `yarn dev` to transpile on save
-- Optionally run `yarn buildprod` instead of `yarn build` to strip source maps for leaner production output
-- Minify lua output with `yarn minify` (Reduces file size for HTML5 builds) (Experimental: [see known issues](https://github.com/mathiasbynens/luamin/issues))
+- Optionally run `yarn buildO1` instead of `yarn build` to strip source maps, [unfold constants](https://github.com/thinknathan/tstl-simple-const-unroller), [propagate constants](https://github.com/thinknathan/tstl-const-propagation), and [inline marked functions](https://github.com/thinknathan/tstl-simple-inline-func)
+- Run `yarn buildO2` to get the benefits of `buildO1` and also minify the output (Reduces file size for HTML5 builds) (Experimental: [see known issues](https://github.com/mathiasbynens/luamin/issues))
 
-_Note that you will need to have [Node.js](https://nodejs.org) installed._
+_You will need to have [Node.js](https://nodejs.org) installed._
 
 ## Quick Start
 
