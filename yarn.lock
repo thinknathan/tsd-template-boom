@@ -1343,8 +1343,8 @@ tslib@^2.6.0, tslib@^2.6.2:
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
 "tstl-const-propagation@git+https://git@github.com/thinknathan/tstl-const-propagation.git#^2.0.0":
-  version "2.0.0"
-  resolved "git+https://git@github.com/thinknathan/tstl-const-propagation.git#4d6482c1f963d18318937e15de223eeb65d69689"
+  version "2.0.1"
+  resolved "git+https://git@github.com/thinknathan/tstl-const-propagation.git#618732fc681dc10ba711166847478fb10df8f9ca"
 
 "tstl-simple-const-unroller@git+https://git@github.com/thinknathan/tstl-simple-const-unroller.git#^1.0.0":
   version "1.0.1"
