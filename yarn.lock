@@ -1346,10 +1346,6 @@ tslib@^2.6.0, tslib@^2.6.2:
   version "2.0.1"
   resolved "git+https://git@github.com/thinknathan/tstl-const-propagation.git#618732fc681dc10ba711166847478fb10df8f9ca"
 
-"tstl-simple-const-unroller@git+https://git@github.com/thinknathan/tstl-simple-const-unroller.git#^1.0.0":
-  version "1.0.1"
-  resolved "git+https://git@github.com/thinknathan/tstl-simple-const-unroller.git#85397cc507e302d248a59a44833d75ddf25c7b19"
-
 "tstl-simple-inline-func@git+https://git@github.com/thinknathan/tstl-simple-inline-func.git#^1.0.0":
   version "1.0.0"
   resolved "git+https://git@github.com/thinknathan/tstl-simple-inline-func.git#664ceadfcf1eb741a8f20d9eac0b73297b33f7e1"

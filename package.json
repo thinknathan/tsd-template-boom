@@ -40,7 +40,6 @@
 		"luamin": "^1.0.4",
 		"prettier": "~3.0.0",
 		"tstl-const-propagation": "git+https://git@github.com/thinknathan/tstl-const-propagation.git#^2.0.0",
-		"tstl-simple-const-unroller": "git+https://git@github.com/thinknathan/tstl-simple-const-unroller.git#^1.0.0",
 		"tstl-simple-inline-func": "git+https://git@github.com/thinknathan/tstl-simple-inline-func.git#^1.0.0",
 		"tstl-trim-extensions": "~1.0.3",
 		"typescript": "~5.2.2",

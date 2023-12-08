@@ -28,9 +28,6 @@
 				"name": "tstl-trim-extensions"
 			},
 			{
-				"name": "tstl-simple-const-unroller"
-			},
-			{
 				"name": "tstl-const-propagation"
 			},
 			{
