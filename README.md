@@ -13,20 +13,19 @@ This template extends [tsd-template](https://github.com/ts-defold/tsd-template).
 - Full Lua and Defold API type definitions for TypeScript auto-complete and type checking
 - Types for boom
 - Eslint config for handling the caveats of TypeScriptToLua and keeping your code correct
-  - `yarn lint` to run the linter
-  - `yarn lintfix` to allow the linter to auto-fix issues
+  - `yarn lint` or `npm run lint` to run the linter
+  - `yarn lintfix` or `npm run lintfix` to allow the linter to auto-fix issues
 - Handles script, gui_script, and module exports using familiar ES6 export syntax
 - Full boilerplate game project ready to transpile and go
-- File watcher via `yarn dev` to transpile on save
-- Optionally run `yarn buildO1` instead of `yarn build` to strip source maps, [unfold constants](https://github.com/thinknathan/tstl-simple-const-unroller), [propagate constants](https://github.com/thinknathan/tstl-const-propagation), and [inline marked functions](https://github.com/thinknathan/tstl-simple-inline-func)
-- Run `yarn buildO2` to get the benefits of `buildO1` and also minify the output (Reduces file size for HTML5 builds) (Experimental: [see known issues](https://github.com/mathiasbynens/luamin/issues))
+- File watcher via `yarn dev` or `npm run dev` to transpile on save
+- Optionally run `yarn buildO1` or `npm run buildO1` to strip source maps, [unfold and propagate constants](https://github.com/thinknathan/tstl-const-propagation)
 
 _You will need to have [Node.js](https://nodejs.org) installed._
 
 ## Quick Start
 
-- Use `yarn dev` to start a watcher that compiles and emits lua and script when you save
-- Use `yarn build` to just compile your ts, sans watcher
+- Use `yarn dev` or `npm run dev` to start a watcher that compiles and emits lua and script when you save
+- Use `yarn build` or `npm run build` to just compile your ts, sans watcher
 
 ## Installation
 
@@ -42,15 +41,18 @@ git clone https://github.com/thinknathan/tsd-template-boom.git my-game
 
 ```bash
 cd my-game
-yarn
+npm install
+# or yarn
 ```
 
 3. Generate
 
 ```bash
-yarn build # Transpile the TypeScript files to lua
+npm run build # Transpile the TypeScript files to lua
+# or yarn build
 # or
-yarn dev # Watch for changes and regenerate files on save
+npm run dev # Watch for changes and regenerate files on save
+# or yarn dev
 ```
 
 4. Open `app/game.project` in Defold

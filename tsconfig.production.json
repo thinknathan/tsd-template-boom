@@ -29,9 +29,6 @@
 			},
 			{
 				"name": "tstl-const-propagation"
-			},
-			{
-				"name": "tstl-simple-inline-func"
 			}
 		],
 		"sourceMapTraceback": false

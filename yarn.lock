@@ -91,11 +91,6 @@
     picocolors "^1.0.0"
     tslib "^2.6.0"
 
-"@total-typescript/ts-reset@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@total-typescript/ts-reset/-/ts-reset-0.5.1.tgz#93b0535d00faa588518bcfb0db30182e63e4f7af"
-  integrity sha512-AqlrT8YA1o7Ff5wPfMOL0pvL+1X+sw60NN6CcOCqs658emD6RfiXhF7Gu9QcfKBH7ELY2nInLhKSCWVoNL70MQ==
-
 "@ts-defold/library@~0.1.2":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@ts-defold/library/-/library-0.1.3.tgz#6e6847d2c9b1fe3b732189f3f25ebe29a99c584f"
@@ -930,18 +925,6 @@ lua-types@^2.10.1:
   resolved "https://registry.yarnpkg.com/lua-types/-/lua-types-2.13.1.tgz#8df705ae47617d4a2f189d727f075ca36e690bdb"
   integrity sha512-rRwtvX6kS+5MpuO3xpvKsnYjdSDDI064Qq1OqX8gY+r+0l7m3dFLiZPDFoHqH22jaBpEvcHcPs6+WD7qkdmFsA==
 
-luamin@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/luamin/-/luamin-1.0.4.tgz#944529b58fc6fa4d31eace2e0353d41210f0e3d3"
-  integrity sha512-z1h0bclRD/QGsS/Dz4Skp9z0qPTmmm+IKcrCapGmdTczPWVdN9f9jk6WqkNrcifQr8+n9Pzsm9WkwpOH1JBUAQ==
-  dependencies:
-    luaparse "^0.2.1"
-
-luaparse@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/luaparse/-/luaparse-0.2.1.tgz#aa8f56132b0de97d37f3c991a9df42e0e17f656c"
-  integrity sha512-VKBcryd5nJte4ZNR29NOk8F/UkMipjeb4yoxcSS51z6QAzg9DXUC2WsfLniS0J1eh3pr/ZL3e9ha6V8fhoLbBQ==
-
 merge-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-2.0.0.tgz#52823629a14dd00c9770fb6ad47dc6310f2c1f60"
@@ -1351,10 +1334,6 @@ tslib@^2.6.0, tslib@^2.6.2:
 "tstl-const-propagation@git+https://git@github.com/thinknathan/tstl-const-propagation.git#^2.0.0":
   version "2.0.1"
   resolved "git+https://git@github.com/thinknathan/tstl-const-propagation.git#618732fc681dc10ba711166847478fb10df8f9ca"
-
-"tstl-simple-inline-func@git+https://git@github.com/thinknathan/tstl-simple-inline-func.git#^1.0.0":
-  version "1.0.0"
-  resolved "git+https://git@github.com/thinknathan/tstl-simple-inline-func.git#664ceadfcf1eb741a8f20d9eac0b73297b33f7e1"
 
 tstl-trim-extensions@~1.0.3:
   version "1.0.3"

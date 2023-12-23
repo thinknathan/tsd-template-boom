@@ -17,7 +17,6 @@
 	"scripts": {
 		"build": "tstl",
 		"buildO1": "tstl -p tsconfig.production.json",
-		"buildO2": "tstl -p tsconfig.production.json && yarn run minify",
 		"dev": "tstl --watch",
 		"lint": "eslint src",
 		"lintfix": "eslint src --fix",
@@ -26,7 +25,6 @@
 		"resolve": "library resolve"
 	},
 	"devDependencies": {
-		"@total-typescript/ts-reset": "^0.5.1",
 		"@ts-defold/library": "~0.1.2",
 		"@ts-defold/tstl-export-as-global": "~1.0.0",
 		"@ts-defold/tstl-userdata-sugar": "~1.0.0",
@@ -37,10 +35,8 @@
 		"eslint": "~8.55.0",
 		"eslint-config-prettier": "~9.1.0",
 		"eslint-plugin-prettier": "~5.0.0",
-		"luamin": "^1.0.4",
 		"prettier": "~3.1.0",
 		"tstl-const-propagation": "git+https://git@github.com/thinknathan/tstl-const-propagation.git#^2.0.0",
-		"tstl-simple-inline-func": "git+https://git@github.com/thinknathan/tstl-simple-inline-func.git#^1.0.0",
 		"tstl-trim-extensions": "~1.0.3",
 		"typescript": "~5.2.2",
 		"typescript-to-lua": "~1.22.0",
