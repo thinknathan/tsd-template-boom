@@ -22,6 +22,11 @@ node_modules/
 app/modules/
 app/scripts/
 app/lualib_bundle.lua
+app/manifest.*.der
+*.map
+*.render_script
+*.script
+*.lua
 !src/**
 
 # OS
@@ -31,10 +36,11 @@ Thumbs.db
 # Defold
 app/.internal
 app/build
+app/builtins
+.defold/api
 .externalToolBuilders
 .lock-wscript
 *.pyc
-app/builtins
 dmengine*
 .project
 .cproject
