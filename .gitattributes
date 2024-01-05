@@ -59,3 +59,6 @@
 
 # Defold Project Settings
 *.project linguist-language=INI
+
+# Defold Manifest
+*.appmanifest linguist-language=YAML
