@@ -62,3 +62,6 @@
 
 # Defold Manifest
 *.appmanifest linguist-language=YAML
+
+# Exclude files from archive
+_docs export-ignore
