@@ -1133,9 +1133,9 @@ tslib@^2.6.2:
   resolved "git+https://git@github.com/thinknathan/tstl-const-propagation.git#4106dd4bef5002e752ca561906348977f755a0d2"
 
 tstl-trim-extensions@~1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/tstl-trim-extensions/-/tstl-trim-extensions-1.0.3.tgz#d17c9a9904766532e695e5b9b4f1321c13c0711e"
-  integrity sha512-P9jmoAdEpGK5vZ73yI3GxgaMgVzkTPbosyHh3q7nT0K0U86x9DUlQoB4Gb6fI+MsuGDfTndel0Jf8IUCK2aMvg==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/tstl-trim-extensions/-/tstl-trim-extensions-1.0.4.tgz#e69fa6e26fb1e4b6520c4b38d101cdf3960e2a82"
+  integrity sha512-z72H57fPzzTMAjWbCTH/R3LjrT9iJUaPMqPY+sAts7i/oIR6SpptWGa8VK6t9NpKNvRku1SKbDW5/NNcoN5+Qw==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
