@@ -13,7 +13,8 @@ This template extends [tsd-template](https://github.com/ts-defold/tsd-template).
 ## Features
 
 - Full Lua and Defold API type definitions for TypeScript auto-complete and type checking
-- Types for boom
+- Access to a library of types for Defold extensions by running `yarn resolve` or `npm run resolve`
+- Built-in types for boom
 - Eslint config for handling the caveats of TypeScriptToLua and keeping your code correct
   - `yarn lint` or `npm run lint` to run the linter
   - `yarn lintfix` or `npm run lintfix` to allow the linter to auto-fix issues
