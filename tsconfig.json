@@ -22,7 +22,7 @@
 			"./node_modules/@types",
 			"./node_modules/@typescript-to-lua"
 		],
-		"types": ["language-extensions", "tsd-boom", "types"]
+		"types": ["language-extensions", "types"]
 	},
 	"exclude": ["./node_modules/*", "./plugins/*"],
 	"tstl": {
