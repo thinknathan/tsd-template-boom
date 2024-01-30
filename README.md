@@ -13,7 +13,6 @@ This template extends [tsd-template](https://github.com/ts-defold/tsd-template).
 ## Features
 
 - Full Lua and Defold API type definitions for TypeScript auto-complete and type checking
-- Access to a library of types for Defold extensions by running `yarn resolve` or `npm run resolve`
 - Built-in types for boom
 - Eslint config for handling the caveats of TypeScriptToLua and keeping your code correct
   - `yarn lint` or `npm run lint` to run the linter
@@ -22,6 +21,8 @@ This template extends [tsd-template](https://github.com/ts-defold/tsd-template).
 - Full boilerplate game project ready to transpile and go
 - File watcher via `yarn dev` or `npm run dev` to transpile on save
 - Optionally run `yarn buildO1` or `npm run buildO1` to strip source maps, [unfold and propagate constants](https://github.com/thinknathan/tstl-const-propagation)
+- Access a library of types for Defold extensions by running `yarn resolve` or `npm run resolve`
+  - Fallback solution to generate types for Defold extensions programmatically by running `yarn xtgen` or `npm run xtgen`
 
 _You will need to have [Node.js](https://nodejs.org) installed._
 
