@@ -686,9 +686,9 @@ hasown@^2.0.0:
     function-bind "^1.1.2"
 
 ignore@^5.2.0, ignore@^5.2.4:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.0.tgz#67418ae40d34d6999c95ff56016759c718c82f78"
-  integrity sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.1.tgz#5073e554cd42c5b33b394375f538b8593e34d4ef"
+  integrity sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==
 
 import-fresh@^3.2.1:
   version "3.3.0"
@@ -1149,8 +1149,8 @@ ts-api-utils@^1.0.1:
   integrity sha512-wNMeqtMz5NtwpT/UZGY5alT+VoKdSsOOP/kqHFcUW1P/VRhH2wJ48+DN2WwUliNbQ976ETwDL0Ifd2VVvgonvg==
 
 "tsd-ext-type-gen@git+https://git@github.com/thinknathan/tsd-ext-type-gen.git#^1.0.0":
-  version "1.0.2"
-  resolved "git+https://git@github.com/thinknathan/tsd-ext-type-gen.git#60518cf0239bf95b73fbe5761e4949c93b91b785"
+  version "1.0.5"
+  resolved "git+https://git@github.com/thinknathan/tsd-ext-type-gen.git#8a24f46b2b69f67c23b13b84ee56a41a5fcff367"
   dependencies:
     adm-zip "~0.5.10"
     node-fetch "^3.3.2"
@@ -1188,10 +1188,10 @@ type-fest@^0.20.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.20.2.tgz#1bf207f4b28f91583666cb5fbd327887301cd5f4"
   integrity sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==
 
-typescript-to-lua@^0.36.0, typescript-to-lua@~1.23.0:
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.23.0.tgz#4cf1f92b803db414440aea96c90d2ee604144dec"
-  integrity sha512-DZ6RWdtT058I2TtXl2odQxyPSdIg0+gGGwNG7zof0mxfFb55x2uRzzve7hfJ/yElP2osTSU6GAwt0zVkPmIt2w==
+typescript-to-lua@^0.36.0, typescript-to-lua@~1.24.0:
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.24.0.tgz#6e1443f0c7ae2352ccaa6f80b60f52c3d3bb45ad"
+  integrity sha512-C/bJy2OtVh/i2y4hVnCa6wJ9K8ZOTLcdHSQbFpqpS4gEvbux7SYc+lNQcSknBnsEHgFoPLctDJhBY/Eh1MhrdA==
   dependencies:
     "@typescript-to-lua/language-extensions" "1.19.0"
     enhanced-resolve "^5.8.2"
