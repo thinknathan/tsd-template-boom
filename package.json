@@ -11,7 +11,7 @@
 	"author": "Nathan Bolton (https://thinknathan.ca)",
 	"license": "MIT",
 	"engines": {
-		"node": "^16.0.0 || >=18.0.0"
+		"node": "^18 || >=20"
 	},
 	"type": "module",
 	"scripts": {
