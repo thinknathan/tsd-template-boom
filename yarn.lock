@@ -106,9 +106,9 @@
   resolved "https://registry.yarnpkg.com/@ts-defold/tstl-userdata-sugar/-/tstl-userdata-sugar-1.0.1.tgz#a22a696b1bdfe9dc99155894ed53f3d8fbdecc1a"
   integrity sha512-iEBt+EpMOvBnpr1/fwUMirVGUqUAE9yFIuzi4ir7BOJvQEEtqAgTvyco2RIms9D7OzEL2jqBSzt3NjoD7zdKpQ==
 
-"@ts-defold/types@git+https://git@github.com/thinknathan/ts-defold-types.git#^1.3.2":
-  version "1.3.19"
-  resolved "git+https://git@github.com/thinknathan/ts-defold-types.git#dbde02430c29afe9500382177b9b2eaa952c3f0d"
+"@ts-defold/types@git+https://git@github.com/thinknathan/ts-defold-types.git#>=1.6.4":
+  version "1.6.4"
+  resolved "git+https://git@github.com/thinknathan/ts-defold-types.git#075cd4d5508226cb3d4caf1204f7cc5e66dfd910"
   dependencies:
     lua-types "^2.10.1"
 
