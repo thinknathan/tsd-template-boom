@@ -23,7 +23,7 @@
 						"suggest": ["undefined"]
 					}
 				},
-				"extendDefaults": false
+				"extendDefaults": true
 			}
 		],
 		"no-unused-vars": "off",
