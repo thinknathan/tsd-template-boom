@@ -1148,9 +1148,10 @@ ts-api-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.2.1.tgz#f716c7e027494629485b21c0df6180f4d08f5e8b"
   integrity sha512-RIYA36cJn2WiH9Hy77hdF9r7oEwxAtB/TS9/S4Qd90Ap4z5FSiin5zEiTL44OII1Y3IIlEvxwxFUVgrHSZ/UpA==
 
-"tsd-ext-type-gen@git+https://git@github.com/thinknathan/tsd-ext-type-gen.git#^1.0.0":
+tsd-ext-type-gen@^1.0.6:
   version "1.0.6"
-  resolved "git+https://git@github.com/thinknathan/tsd-ext-type-gen.git#1f48ba9def4f43fc8c87dbb0e806eb4a9bd08d6b"
+  resolved "https://registry.yarnpkg.com/tsd-ext-type-gen/-/tsd-ext-type-gen-1.0.6.tgz#a2c4896413256b760bc18faf573229c73ab0601d"
+  integrity sha512-vmssvevm/V9lZyPGfbcHEEE42nq9COZWeobmM6DIpCiB1ck1cqsfhDndFcOYrJ/CBzVm9nh6gb5KTPBxdqLz8w==
   dependencies:
     adm-zip "~0.5.10"
     node-fetch "^3.3.2"
@@ -1167,9 +1168,10 @@ tslib@^2.6.2:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
-"tstl-const-propagation@git+https://git@github.com/thinknathan/tstl-const-propagation.git#^2.0.0":
-  version "2.0.2"
-  resolved "git+https://git@github.com/thinknathan/tstl-const-propagation.git#4106dd4bef5002e752ca561906348977f755a0d2"
+tstl-const-propagation@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/tstl-const-propagation/-/tstl-const-propagation-2.0.4.tgz#33ee2d9e423ca84adbccaf5b2465675c5bb61217"
+  integrity sha512-latJ72p8E49NXwh3IsdwB2QBEnRtKvhEqd0OlSnCjEZcOOxM1LWvXCHMx3mTaA6DUYjOfHFy3brtseyRIhM72w==
 
 tstl-trim-extensions@^1.0.3:
   version "1.0.4"
