@@ -1149,9 +1149,9 @@ ts-api-utils@^1.0.1:
   integrity sha512-RIYA36cJn2WiH9Hy77hdF9r7oEwxAtB/TS9/S4Qd90Ap4z5FSiin5zEiTL44OII1Y3IIlEvxwxFUVgrHSZ/UpA==
 
 tsd-ext-type-gen@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/tsd-ext-type-gen/-/tsd-ext-type-gen-1.0.6.tgz#a2c4896413256b760bc18faf573229c73ab0601d"
-  integrity sha512-vmssvevm/V9lZyPGfbcHEEE42nq9COZWeobmM6DIpCiB1ck1cqsfhDndFcOYrJ/CBzVm9nh6gb5KTPBxdqLz8w==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tsd-ext-type-gen/-/tsd-ext-type-gen-1.1.0.tgz#224e7643bd537c1131c153d3926e4a5a4b671692"
+  integrity sha512-+E9ObIPMsWYsCdpWjg+rDGltJKxBwESDGk97U2mGSGo3OjGCmprtWUG2aA/P6o+t2E5T1FU3IV4ddOl2apsTGg==
   dependencies:
     adm-zip "~0.5.10"
     node-fetch "^3.3.2"
