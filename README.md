@@ -2,7 +2,7 @@
 
 # Defold TypeScript Boom Template
 
-[![CI](https://github.com/thinknathan/tsd-template-boom/actions/workflows/ci.yml/badge.svg)](https://github.com/thinknathan/tsd-template-boom/actions/workflows/ci.yml) 
+[![CI](https://github.com/thinknathan/tsd-template-boom/actions/workflows/ci.yml/badge.svg)](https://github.com/thinknathan/tsd-template-boom/actions/workflows/ci.yml)
 ![GitHub License](https://img.shields.io/github/license/thinknathan/tsd-template-boom) <a href="https://discord.gg/eukcq5m"><img alt="Chat with us!" src="https://img.shields.io/discord/766898804896038942.svg?colorB=7581dc&logo=discord&logoColor=white"></a>
 
 A dev environment for [Defold](https://defold.com/) that transpiles TypeScript into lua using [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua).
@@ -23,7 +23,6 @@ This template extends [tsd-template](https://github.com/ts-defold/tsd-template).
 - File watcher via `yarn dev` or `npm run dev` to transpile on save
 - Optionally run `yarn buildO1` or `npm run buildO1` to strip source maps, [unfold and propagate constants](https://github.com/thinknathan/tstl-const-propagation)
 - Access a library of types for Defold extensions by running `yarn resolve` or `npm run resolve`
-  - Fallback solution to generate types for Defold extensions programmatically by running `yarn xtgen` or `npm run xtgen`
 
 _You will need to have [Node.js](https://nodejs.org) installed._
 

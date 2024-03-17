@@ -7,19 +7,8 @@
 	"tstl": {
 		"luaPlugins": [
 			{
-				"globals": {
-					"functions": [
-						"final",
-						"fixed_update",
-						"init",
-						"on_input",
-						"on_message",
-						"on_reload",
-						"update"
-					]
-				},
 				"match": ".*\\..*script.ts$",
-				"name": "@ts-defold/tstl-export-as-global"
+				"name": "tstl-export-to-global"
 			},
 			{
 				"name": "@ts-defold/tstl-userdata-sugar"
