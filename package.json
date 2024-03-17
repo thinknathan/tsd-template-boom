@@ -20,7 +20,7 @@
 		"dev": "tstl --watch",
 		"lint": "eslint src",
 		"lintfix": "eslint src --fix",
-		"prettier": "prettier \"./**/*.{eslintrc,yml,json,ts,md,d.ts}\" --write",
+		"prettier": "prettier \"./**/*.{yml,json,ts,md,d.ts}\" --write",
 		"resolve": "library resolve"
 	},
 	"devDependencies": {
