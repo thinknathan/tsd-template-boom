@@ -34,7 +34,12 @@
 			"error",
 			{
 				"args": "all",
-				"argsIgnorePattern": "^_"
+				"argsIgnorePattern": "^_",
+				"caughtErrors": "all",
+				"caughtErrorsIgnorePattern": "^_",
+				"destructuredArrayIgnorePattern": "^_",
+				"varsIgnorePattern": "^_",
+				"ignoreRestSiblings": true
 			}
 		],
 		"@typescript-eslint/strict-boolean-expressions": [
