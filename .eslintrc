@@ -4,7 +4,9 @@
 	"parserOptions": {
 		"project": "tsconfig.json"
 	},
-	"plugins": ["@typescript-eslint", "prettier"],
+	"plugins": [
+		"@typescript-eslint"
+	],
 	"extends": [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/recommended-requiring-type-checking",
@@ -12,7 +14,6 @@
 	],
 	"rules": {
 		"eqeqeq": "error",
-		"prettier/prettier": "warn",
 		"@typescript-eslint/ban-types": [
 			"error",
 			{
@@ -20,7 +21,9 @@
 					"null": {
 						"message": "Use `undefined` as the equivalent to Lua's `nil`",
 						"fixWith": "undefined",
-						"suggest": ["undefined"]
+						"suggest": [
+							"undefined"
+						]
 					}
 				},
 				"extendDefaults": true
