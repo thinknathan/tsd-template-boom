@@ -35,7 +35,7 @@
 		"tstl-const-propagation": "^2.0.4",
 		"tstl-export-to-global": "^1.0.1",
 		"tstl-trim-extensions": "^1.0.3",
-		"typescript": "~5.4.2",
+		"typescript": "5.4.2",
 		"typescript-to-lua": "~1.25.0",
 		"typescript-tstl-plugin": "~0.3.2"
 	},
