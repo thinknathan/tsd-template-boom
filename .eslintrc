@@ -7,10 +7,12 @@
 	"plugins": [
 		"@typescript-eslint"
 	],
+	"ignorePatterns": [
+		"node_modules"
+	],
 	"extends": [
 		"eslint:recommended",
-		"plugin:@typescript-eslint/recommended-requiring-type-checking",
-		"prettier"
+		"plugin:@typescript-eslint/recommended-requiring-type-checking"
 	],
 	"rules": {
 		"eqeqeq": "error",

@@ -4,6 +4,7 @@
 		"typescript-to-lua.vscode-typescript-to-lua",
 		"dbaeumer.vscode-eslint",
 		"thejustinwalsh.textproto-grammer",
-		"ts-defold.defold-vscode-build"
+		"ts-defold.defold-vscode-build",
+		"esbenp.prettier-vscode"
 	]
 }
