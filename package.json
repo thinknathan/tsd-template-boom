@@ -27,7 +27,7 @@
 		"@ts-defold/library": "~0.1.2",
 		"@ts-defold/tstl-userdata-sugar": "^1.0.0",
 		"@ts-defold/types": "git+https://git@github.com/thinknathan/ts-defold-types.git#>=1.6.4",
-		"eslint": "^9.0.0",
+		"eslint": "^8.0.0",
 		"prettier": "^3.1.0",
 		"tstl-const-propagation": "^2.0.4",
 		"tstl-export-to-global": "^1.0.1",
