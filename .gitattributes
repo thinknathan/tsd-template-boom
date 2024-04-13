@@ -8,8 +8,6 @@
 *.js text=auto
 *.cjs text=auto
 *.mjs text=auto
-.eslintignore text=auto
-.eslintrc text=auto
 .gitattributes text=auto
 .gitignore text=auto
 .prettierignore text=auto
