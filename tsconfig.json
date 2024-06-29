@@ -16,15 +16,9 @@
 		"sourceMap": true,
 		"strict": true,
 		"target": "esnext",
-		"typeRoots": [
-			"./@types",
-			"./node_modules/@ts-defold",
-			"./node_modules/@types",
-			"./node_modules/@typescript-to-lua"
-		],
-		"types": ["language-extensions", "types"]
+		"types": ["@typescript-to-lua/language-extensions", "@ts-defold/types"]
 	},
-	"exclude": ["./node_modules/*", "./plugins/*"],
+	"exclude": ["./node_modules/*"],
 	"tstl": {
 		"luaLibImport": "require-minimal",
 		"luaPlugins": [
