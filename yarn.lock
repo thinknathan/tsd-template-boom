@@ -1045,10 +1045,10 @@ typescript-eslint@^8.0.0:
     "@typescript-eslint/typescript-estree" "8.46.4"
     "@typescript-eslint/utils" "8.46.4"
 
-typescript-to-lua@^0.36.0, typescript-to-lua@~1.32.0:
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.32.0.tgz#d23ba2a7d94d6fa600b595fe2224fb06dce7fdc0"
-  integrity sha512-RVopoyoYiYJFrv/0Yw6i77lBI9DhNhAGxuq6TV4b3JzCWjabzwUd/yhTCSVKzWiiAs0zj24Mi7iH9biWG6Phjw==
+typescript-to-lua@^0.36.0, typescript-to-lua@~1.33.0:
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.33.0.tgz#5be65eea2aa90c7955c9fb304c565c9c772499a2"
+  integrity sha512-fFJjP2iJ3NFOSQzAvmFOf8MCsaev531YWYAA9N+RJO/XRV0Moewq+zY7Rg5hFlMFxAJpqrk7E8nb7QcwxCy3XQ==
   dependencies:
     "@typescript-to-lua/language-extensions" "1.19.0"
     enhanced-resolve "5.8.2"
@@ -1067,10 +1067,10 @@ typescript-tstl-plugin@~0.3.2:
     tslib "^1.14.1"
     typescript-to-lua "^0.36.0"
 
-typescript@5.8.2:
-  version "5.8.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.2.tgz#8170b3702f74b79db2e5a96207c15e65807999e4"
-  integrity sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==
+typescript@5.9.3:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.3.tgz#5b4f59e15310ab17a216f5d6cf53ee476ede670f"
+  integrity sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==
 
 uri-js@^4.2.2:
   version "4.4.1"
