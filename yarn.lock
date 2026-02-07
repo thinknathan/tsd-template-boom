@@ -111,9 +111,9 @@
   integrity sha512-iEBt+EpMOvBnpr1/fwUMirVGUqUAE9yFIuzi4ir7BOJvQEEtqAgTvyco2RIms9D7OzEL2jqBSzt3NjoD7zdKpQ==
 
 "@ts-defold/types@^1.2.51":
-  version "1.2.77"
-  resolved "https://registry.yarnpkg.com/@ts-defold/types/-/types-1.2.77.tgz#24f0dd0126129e8a2b3a0f9227e087fe22105d64"
-  integrity sha512-AfBoEuWdvdgYIkzjU9LmuYPVd9nguFgba7pMMS2Vrrtz+Q6m7W6v846V2PGWJ5Q2MJb7eOdlnOrsFe1ImMpZ+w==
+  version "1.2.78"
+  resolved "https://registry.yarnpkg.com/@ts-defold/types/-/types-1.2.78.tgz#32c1d9d7f31e9e7907675b154f4e9786faa46397"
+  integrity sha512-ZnkAWuw3/gM/UspKxerMjOpVMjBB1bobYY1lPGHduuEV5zXgqrR2jjbogtuaQopZ6442Q/bvqjrLecK83ptW8w==
   dependencies:
     lua-types "^2.10.1"
 
@@ -840,9 +840,9 @@ sax@>=0.6.0:
   integrity sha512-1n3r/tGXO6b6VXMdFT54SHzT9ytu9yr7TaELowdYpMqY/Ao7EnlQGmAQ1+RatX7Tkkdm6hONI2owqNx2aZj5Sw==
 
 semver@^7.3.5, semver@^7.7.3:
-  version "7.7.3"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.3.tgz#4b5f4143d007633a8dc671cd0a6ef9147b8bb946"
-  integrity sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.7.4.tgz#28464e36060e991fa7a11d0279d2d3f3b57a7e8a"
+  integrity sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==
 
 shebang-command@^2.0.0:
   version "2.0.0"
