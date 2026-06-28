@@ -636,9 +636,9 @@ isexe@^2.0.0:
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
 js-yaml@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.1.tgz#854c292467705b699476e1a2decc0c8a3458806b"
-  integrity sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.3.0.tgz#d1900572a7f7cf0b5f540c83673e60bad3436592"
+  integrity sha512-1td788aAnnZ5qs7V2QIRl1owjtYpbKt749Y3xauqQgwIIGF/xXWz1wMTEBx5O3LK3lXLVuqXPdPxj2BoFHaW9Q==
   dependencies:
     argparse "^2.0.1"
 
@@ -968,17 +968,6 @@ typescript-to-lua@^0.36.0, typescript-to-lua@~1.36.0:
   version "1.36.0"
   resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.36.0.tgz#f5191d0299b2350d329e77c4a6113363e4f84f58"
   integrity sha512-OrBYbOVkg5fEmiaxcejb6lPw5B2Iqq1X/76x9YRa+UItci3eC6EObgbabqjJOZIYC1O2/KV7oRh2NPdrniriHw==
-  dependencies:
-    "@typescript-to-lua/language-extensions" "1.19.0"
-    enhanced-resolve "5.8.2"
-    picomatch "^2.3.1"
-    resolve "^1.15.1"
-    source-map "^0.7.3"
-
-typescript-to-lua@~1.34.0:
-  version "1.34.0"
-  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.34.0.tgz#60655f26c9c4400fd5b464c3cf113a6042dbe8c6"
-  integrity sha512-DOSU1qSpUiGEW9H6shKFkeWjiBFsl+qFWTKZU9Xqo3B5FqarVZGiIkWKz2rmWi1tGD2314RHYzOuOO1l3Ex1pw==
   dependencies:
     "@typescript-to-lua/language-extensions" "1.19.0"
     enhanced-resolve "5.8.2"
