@@ -978,10 +978,10 @@ typescript-eslint@^8.0.0:
     "@typescript-eslint/typescript-estree" "8.67.0"
     "@typescript-eslint/utils" "8.67.0"
 
-typescript-to-lua@^0.36.0, typescript-to-lua@~1.36.0:
-  version "1.36.0"
-  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.36.0.tgz#f5191d0299b2350d329e77c4a6113363e4f84f58"
-  integrity sha512-OrBYbOVkg5fEmiaxcejb6lPw5B2Iqq1X/76x9YRa+UItci3eC6EObgbabqjJOZIYC1O2/KV7oRh2NPdrniriHw==
+typescript-to-lua@^0.36.0, typescript-to-lua@~1.37.0:
+  version "1.37.1"
+  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.37.1.tgz#4da285d8211062a5c6d281f85e06997ce961d3e8"
+  integrity sha512-iOgG7UcfBxPzr2E/pNfamz2IEEOqub6nyivDoj2eDV5XRtKrHroCcR0uitvVzbRMUAITP71PHMJS3bNKVWG42g==
   dependencies:
     "@typescript-to-lua/language-extensions" "1.19.0"
     enhanced-resolve "5.8.2"
